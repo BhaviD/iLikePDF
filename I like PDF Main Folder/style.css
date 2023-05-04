@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-    margin-top: -300px;
+    margin-top: 0px;
   background: #823BD3;
   position: fixed;
   width: 100%;
@@ -45,7 +45,7 @@ nav .content .links{
   font-weight: 500;
   padding: 9px 17px;
   border-radius: 20px 20px 20px 20px;
-  transition: all 0.3s ease;
+ 
 }
 .content .links li label{
  color: #823BD3;
@@ -165,7 +165,7 @@ nav .content .links{
   position: absolute;
   top: 0;
    
-    margin-right:calc(100% + 130px);
+    margin-right:calc(100% + 100px);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-gap: 3px;
@@ -279,13 +279,25 @@ nav .content .links{
     padding-right: 30px;
   }
 }
-
+.main-text{
+    text-align: center
+}
+.main-text h1{
+    color: #E30F28;
+}
+.main-text h3{
+    color: #E30F28;
+}
+.main-text h1:hover{
+    color: #823BD3; 
+}
 .dummy-text{
     color:#E30F28 ;
-  position: absolute;
+  position:  absolute;
   top: 25%;
   left: 50%;
   width: 100%;
+   margin-top: 150px ;
   z-index: -1;
   padding: 0 20px;
   text-align: center;
@@ -294,20 +306,22 @@ nav .content .links{
 }
 .dummy-text h2{
   font-size: 45px;
-  margin: 5px 0;
+  margin: 5px 0px;
 }
 .dummy-text:hover{
     color:#823BD3 ;
 }
+
 .parent{
-    margin:300px;
+    margin:70px;
     /*margin-right: 70px;*/
     margin-left: 35px;
     width: 95%;
    /* padding: -200px -200px;  */
    
     width:-100%; 
-     
+     z-index: -1;
+    background: #fff;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-auto-rows: 150px;
@@ -340,8 +354,9 @@ nav .content .links{
     cursor: pointer;
 }
 .child:nth-child(odd) a p,.child:nth-child(even) a p{
-    color: #f2f2f2;
-    font-size: 15px
+    color: #ffffff;
+    font-size: 15px;
+    
 }
 .child:nth-child(odd):hover,
 .child:nth-child(even):hover{
@@ -352,7 +367,10 @@ nav .content .links{
 }
 .block block--grey-admin{
     text-align: center;
-    margin-top: -100px;
+    width: 100%;
+    height: -100%;
+    margin: 0px;
+    overflow: hidden;
 }
 .block__container,.block__header{
     text-align: center;

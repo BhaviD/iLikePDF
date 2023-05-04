@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-    margin-top: -200px;
+    margin-top: -100px;
   background: #823BD3;
   position: fixed;
   width: 100%;
@@ -282,22 +282,29 @@ nav .content .links{
 }
 .merge{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     color: #823BD3;
 }
-.field button{
+.merge1{
+    text-align:   center;
+     
+}
+.field input {
     color: #fff;
-    background-color:#E30F28;
+    text-align: center;
+    background-color:#823BD3;
     transition: all 0.3s ease;
     cursor: pointer;
-    padding: 30px 30px;
+    padding: 20px 10px;
     height: 0 20px;
     border-radius: 20px;
     font-weight: 600;
 }
-.field button:hover{
-    background-color: #823BD3 ;
+.field input:hover{
+    background-color:#E30F28  ;
 }
+ 
+
 .field1 button{
     color: #ffffff;
     background-color:#E30F28;
@@ -312,4 +319,37 @@ nav .content .links{
 .field1 button:hover{
     background-color: #823BD3 ;
 }
+.parent{
+    margin:70px;
+    /*margin-right: 70px;*/
+     text-align: center;
+    margin-left: 300px;
+    width: 55%;
+   /* padding: -200px -200px;  */
+   
+    width:-100%; 
+     z-index: -1;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  1fr;
+    grid-auto-rows: 50px;
+    grid-gap: -40px;
+     
+    
+}
  
+.child{
+     border-radius: 20px 20px 20px 20px;
+     border-color: black;
+}
+ 
+ .child button {
+    color: #fff;
+    cursor: pointer;
+    background-color: #E30F28;
+     padding: 3px 3px;
+     border-radius: 10px;
+}
+.child button:hover{
+    background-color: #823BD3;
+}
