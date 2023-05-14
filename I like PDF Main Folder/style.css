@@ -45,7 +45,13 @@ nav .content .links{
   font-weight: 500;
   padding: 9px 17px;
   border-radius: 20px 20px 20px 20px;
- 
+  transition: all 0.3s ease;
+}
+.content .links li .m{
+    color: #E30F28;
+}
+.content .links li .m:hover{
+    background-color:#823BD3 ;
 }
 .content .links li label{
  color: #823BD3;
@@ -61,7 +67,8 @@ nav .content .links{
 }
 .content .links li a:hover{
     background:  #E30F28;
-} ,
+} 
+
 .content .links li label:hover{
   background:  #E30F28;
     color: #fff;
@@ -158,14 +165,13 @@ nav .content .links{
 .content .links ul ul{
   position: absolute;
   top: 0;
-  right:    calc(-100% + 3px);
- 
+  right: calc(-100% + 3px);
 }
 .lang__menu{
   position: absolute;
   top: 0;
    
-    margin-right:calc(100% + 100px);
+    margin-right:calc(100% + 130px);
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-gap: 3px;
@@ -284,12 +290,15 @@ nav .content .links{
 }
 .main-text h1{
     color: #E30F28;
+    cursor: pointer;
 }
 .main-text h3{
     color: #E30F28;
+    cursor: pointer;
 }
-.main-text h1:hover{
+.main-text h1:hover,.main-text h3:hover{
     color: #823BD3; 
+    cursor: pointer;
 }
 .dummy-text{
     color:#E30F28 ;
