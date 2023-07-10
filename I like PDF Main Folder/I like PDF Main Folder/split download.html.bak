@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Split PDF| iLikePDF| Online platform for PDF Conversions</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="merge%20download.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+<body>
+
+    <div class="wrapper2">
+    <header>
+        <h2> Select the Range of Page Numbers to Split in Selected PDF </h2>
+        </header>
+        <div class="range">
+        <span>From</span>
+        <input type="number" class="input-min" value="0"></div>
+        <div class="range">
+        <span>To</span>
+        <input type="number" class="input-max" value="10000"></div>
+    </div>
+ 
+    </body></html>
