@@ -7,7 +7,7 @@
   font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-    margin-top: -200px;
+    margin-top: -100px;
   background: #823BD3;
   position: fixed;
   width: 100%;
@@ -287,7 +287,7 @@ nav .content .links{
 }
 .merge{
     text-align: center;
-    margin-top: 200px;
+    margin-top: 100px;
     color: #823BD3;
 }
 .field button{
@@ -315,6 +315,6 @@ nav .content .links{
     margin: 10px 10px;
 }
 .field1 button:hover{
-    background-color: #823BD3 ;
+    background-color: #ffffff ;
 }
  
