@@ -6,8 +6,16 @@
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
 .wrapper{
-    margin-top: -100px;
+  margin-top: -500px;
   background: #2727C7;
   position: fixed;
   width: 100%;
@@ -48,7 +56,7 @@ nav .content .links{
   transition: all 0.3s ease;
 }
 .content .links li .m{
-    color:#F95904;
+    color: #F95904;
 }
 .content .links li .m:hover{
     background-color:#2727C7 ;
@@ -66,11 +74,11 @@ nav .content .links{
     color: #2727C7;
 }
 .content .links li a:hover{
-    background:  #F95904 ;
+    background:  #F95904;
 } 
 
 .content .links li label:hover{
-  background: #F95904;
+  background:  #F95904;
     color: #fff;
 }
 .wrapper .search-icon,
@@ -137,7 +145,7 @@ nav .content .links{
 .content .links ul{
   position: absolute;
   background:#fff ;
-    color: #2727C7;
+    color:#2727C7 ;
   top: 80px;
   z-index: -1;
   opacity: 0;
@@ -160,9 +168,8 @@ nav .content .links{
 }
 .content .links ul li a:hover{
     color: #fff;
-    background-color: #F95904 ;
-}
-.alltools{
+    background-color: #F95904;
+}.alltools{
     margin:0px;
     margin-left: -850px;
     margin-right: -210px;
@@ -178,7 +185,7 @@ nav .content .links{
 }
 .toolslist {
     background-color:  #ffffff;
-    color:#F95904 ;
+    color: #F95904;
     border-radius: 20px 20px 20px 20px;
     border:1px solid white;
     font-size: 20px;
@@ -195,7 +202,7 @@ nav .content .links{
 }
 }
 .alltools .toolslist ul:hover{
-    color:#F95904;
+    color: #F95904;
 }
 
 .toolslist:hover{
@@ -340,42 +347,54 @@ nav .content .links{
     padding-right: 30px;
   }
 }
-.merge{
+  
+  .one {
+    color: #F95904;
+    margin-top: 500px;
+    margin-right: 400px;
     text-align: center;
-    margin-top: 100px;
-    color: #2727C7;
-}
-.field button{
-    color: #fff;
-    background-color:#F95904 ;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    padding: 25px 25px;
-    height: 0 20px;
-    border-radius: 20px;
-    font-weight: 600;
-}
-.field button:hover{
-    background-color: #2727C7 ;
-}
-.field1 button{
-    color: #ffffff;
-    background-color:#F95904;
-    transition: all 0.3s ease;
-    cursor: pointer;
-    padding: 10px 10px;
-     font-size: 20px;
+    width: 400px;
     border-radius: 10px;
-    font-weight: 400;
-    margin: 10px 10px;
-}
-.field1 button:hover{
-    background-color: #ffffff ;
+    
+    
 }
  
-.p{
-    font-size: 20px;
+.download button{
+     
+    margin-left: 500px;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+background-color: #F95904;  
+    font-weight: 800;
+}
+.download button:hover{
+    background-color: #2727C7 ;
+    color: #fff;
 }
 
- 
- 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

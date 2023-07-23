@@ -8,7 +8,7 @@
 body{
   min-height: 100vh;
   width: 100%;
-  background: #823BD4;
+  background: #2727C7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -51,7 +51,7 @@ body{
 }
 .content .left-side .details i{
   font-size: 30px;
-  color: #823BD4;
+  color: #2727C7;
   margin-bottom: 10px;
 }
 .content .left-side .details .topic{
@@ -61,7 +61,7 @@ body{
 .content .left-side .details .text-one,
 .content .left-side .details .text-two{
   font-size: 14px;
-  color: #E30F28 ;
+  color: #F95904 ;
 }
 .container .content .right-side{
   width: 75%;
@@ -70,7 +70,7 @@ body{
 .content .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
-  color:  #E30F28;
+  color: #F95904;
 }
 .right-side .input-box{
   height: 50px;
@@ -106,12 +106,12 @@ body{
   border: none;
   padding: 8px 16px;
   border-radius: 20px;
-  background: #E30F28 ;
+  background:#F95904;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 .button input[type="button"]:hover{
-  background-color:#823BD4 ;
+  background-color:#2727C7 ;
 }
 
 @media (max-width: 950px) {
